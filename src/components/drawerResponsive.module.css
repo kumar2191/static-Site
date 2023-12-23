@@ -1,0 +1,56 @@
+.ul {
+  list-style-type: none;
+  width: 230px;
+  height: 460px;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+.li {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.active {
+  border-left: 5px solid #800000;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+/* Change the link color on hover */
+.li:hover {
+  border-left: 5px solid #800000;
+}
+
+.tilteMenu {
+  margin-left: 13px;
+  font-weight: 700;
+  color: #000;
+  margin-top: -3px;
+}
+.underLine {
+  margin-top: 20px;
+  width: 200px;
+  margin-left: 15px;
+  border-top: 1px red;
+}
+.textContainer {
+  margin-top: px;
+}
+.dot {
+  height: 38px;
+  width: 38px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.logo {
+  color: white;
+  margin-left: 13px;
+  margin-top: -10px;
+}

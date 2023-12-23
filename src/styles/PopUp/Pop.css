@@ -1,0 +1,78 @@
+.h1 {
+  color: white;
+  margin-left: 10px;
+  margin-top: 2px;
+  font-weight: bolder;
+}
+.PopUpCointainer {
+  width: 100%;
+  height: 50%;
+  border: 1px solid rgb(61, 60, 60);
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.ModelCointainer {
+  /* background: red; */
+  background: #000;
+}
+.PopUpSub-Cointainer {
+  width: 100%;
+  height: 70%;
+  border: 1px solid rgb(61, 60, 60);
+  border-radius: 5px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  /* background: linear-gradient(-45deg, #1e1e1e , #adadad ); */
+}
+.popUpIcon {
+  float: right;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+/* .ModelCointainer {
+  /* opacity: 0.9; */
+/* background: linear-gradient(-45deg, #00dc9f, #bc2cd8); */
+/* } */
+.ModelCointainer1 {
+  opacity: 0.95;
+  background: linear-gradient(-45deg, #00dc9f, #bc2cd8);
+}
+.PopUpBuyTokenBtn {
+  background: linear-gradient(
+    110.26deg,
+    #2f6b08 55%,
+    rgba(47, 107, 8, 0.08) 99.52%
+  );
+  opacity: 0.6;
+  border-radius: 4px;
+  width: 20%;
+  height: 40px;
+}
+.PopUpBuyTokenBtn:hover {
+  background: linear-gradient(
+    110.26deg,
+    #2f6b08 55%,
+    rgba(47, 107, 8, 0.08) 99.52%
+  );
+}
+.PopUpinputField {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background: rgba(173, 173, 173, 0.4);
+  opacity: 0.5;
+  backdrop-filter: blur(10px);
+  margin-top: 30px;
+  color: white;
+}
+.summary-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.PopUpinputField::-webkit-input-placeholder {
+  color: white;
+  /* background:rgba(86, 91, 91, 0.57); */
+}
