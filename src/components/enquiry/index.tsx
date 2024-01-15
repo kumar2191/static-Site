@@ -51,7 +51,7 @@ function index() {
 
                     </Grid.Col>
                     <Grid.Col xs={12}>
-                        <Textarea placeholder='Describe Your Requirements in Detail' label="Name" />
+                        <Textarea placeholder='Describe Your Requirements in Detail' label="Query" />
 
                     </Grid.Col>
                     <Grid.Col xs={12}>

@@ -1,17 +1,22 @@
 import { Grid } from '@mantine/core';
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
-
 const Slider = () => {
     const Image = [
         {
-            image: "https://4.imimg.com/data4/HV/RG/MY-1981111/concrete-mixing-machine-with-diesel-engine-500x500.jpg"
+            image: "/assets/Rani/01.jpg"
         },
         {
-            image: "https://5.imimg.com/data5/SELLER/Default/2021/9/CO/GX/NU/1981111/block-shifting-trolley-500x500.JPG"
+            image: "/assets/Rani/02.jpg"
         },
         {
-            image: "https://3.imimg.com/data3/BQ/UM/MY-4034565/latest-pictures-motoe-010415-007-500x500.jpg"
+            image: "/assets/Rani/03.jpg"
+        },
+        {
+            image: "/assets/Rani/04.jpg"
+        },
+        {
+            image: "/assets/Rani/010.jpg"
         },
 
     ]
@@ -23,7 +28,7 @@ const Slider = () => {
                 <Carousel
                     infiniteLoop
                     autoPlay
-                    interval={3000}
+                    interval={1000}
                     swipeable
                     showThumbs={false}
                 >
