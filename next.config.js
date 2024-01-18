@@ -49,7 +49,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
-  distDir: '.next',
+  distDir: 'build',
   images: {
     domains: [
       'www.w3schools.com',
