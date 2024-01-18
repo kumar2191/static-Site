@@ -28,7 +28,7 @@ const nextConfig = (phase) => {
 
   return {
     reactStrictMode: true,
-    distDir: '.next',
+    distDir: 'build',
     images: {
       domains: [
         'www.w3schools.com',
